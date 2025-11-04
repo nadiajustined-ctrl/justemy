@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "poppins,sans-serif";
+    background: #e3f3fc ;
+    justify-content: center;
+}
+/* header */
+.header{
+    position: flex;
+    width: 100%;
+    padding:1.5rem 2rem ;
+    box-shadow:0 2px 10px rgba(0,0,0,0.4) ;
+
+}
+.nav-contaire{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--secondary-color);
+    text-transform: uppercase;
+}
+.nav-bar{
+    display: flex;
+    gap: 2.5rem;
+}
+.nav-bar a{
+    text-decoration: 0;
+    color: grey;
+}
+.hero{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.4)) ,url(/&.jpg);
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.hero-content{
+    font-size: 20px;
+    padding-bottom: 2rem;
+}
+.hero-content h1{
+    font-size:4Rem ;
+    margin-bottom: 1.5rem;
+    font-weight: 200;
+    letter-spacing: 1px;
+    text-shadow: 2px;
+    color: #fff;
+}
+.hero-content p{
+    font-size: 1.8rem;
+    margin-bottom: 3rem;
+    font-weight: 200;
+    color: #fff;
+}
+.search-form input{
+    flex: 1;
+    min-width: 150px;
+    padding: 1rem 1.5rem;
+    border-radius: 50px;
+    position: relative;
+    background-color:white ;
+}
+.search-button{
+    border-radius: 50px;
+    min-width: 150px;
+    padding:1rem 1.5rem ;
+    position: relative;
+    color:black ;
+}
+
+/* les pays a visiter */
+.pays h1{
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+}
+.pays p{
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+}
+/* card image */
+.container{
+    display: flex;
+}
+.card{
+    padding: 60px;
+    box-shadow: 4px 4px 15px rgba(0,0,0,0.2);
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform.0.3S ease;
+    
+}
+.card{
+    margin: 50px;
+}
+.card :hover{
+    transform: scale(1.05);
+}
+.card img{
+width: 100%;
+height: 200px;
+}
+.card-texte{
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+.card-description{
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+}
+.button{
+    display: inline-block;
+    background-color: #0077cc;
+    color: #fff;
+    padding: 8px 15px;
+    text-decoration: none;
+}
+.button :hover{
+    color: #333;
+}
+h2{
+    text-align: center;
+    font-size: 20px;
+}
+.button{
+    cursor: pointer;
+}
+/* les hotels */
+.card-image{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+.card-hotels img{
+    width: 100%;
+    height: 300px;
+    padding: 20px;
+    border-radius: 20px;
+}
+ a{
+    font-size: 1rem;
+}
+.hotels h3{
+    text-align: center;
+    font-size: 2rem;
+}
+.image{
+    padding: 20px;
+    font-size: 1.5rem;
+}
+/* billets d'avion */
+.billets{
+    text-align: center;
+    align-items: center;
+}
+h3{
+    text-align: center;
+    font-size:1.5rem ;
+    padding: 30px;
+}
+.billets img{
+    align-items: center;
+    height: 500px;
+    border-radius: 100%;
+}
+.button{
+    background-color: #0077cc;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 20px;
+}
+/* decouverte du japon */
+h4{
+    text-align: center;
+    font-size: 2rem;
+}
+/* decouverte d'hawai */
+h5{
+    text-align: center;
+    font-size: 2rem;
+}
+/* footer */
+.footer{
+    background-color:#e3f3fc;
+    color: black;
+    padding: 4rem;
+}
+h3{
+    text-align:center ;
+    font-size:1.5rem ;
+    padding:10px ;
+}
+/* footer-contact */
+.contact{
+    background-color: black;
+    color: #fff;
+    
+}
+.contact p{
+    color: #fff;
+    text-align: center;
+}
+.about p{
+    font-size: 1.3rem;
+    justify-content: space-between;
+    text-align: center;
+}
+
